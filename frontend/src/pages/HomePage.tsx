@@ -47,10 +47,6 @@ const HomePage: React.FC = () => {
     characterName: '',
   });
 
-  useEffect(() => {
-    fetchColoringPages();
-  }, [filters, fetchColoringPages]);
-
   const fetchColoringPages = useCallback(async () => {
     try {
       setLoading(true);
@@ -80,6 +76,10 @@ const HomePage: React.FC = () => {
       setLoading(false);
     }
   }, [filters]);
+
+  useEffect(() => {
+    fetchColoringPages();
+  }, [fetchColoringPages]);
 
   const handleFilterChange = (key: string, value: string) => {
     setFilters(prev => ({
