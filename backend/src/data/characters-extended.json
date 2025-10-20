@@ -1,0 +1,549 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "미키마우스",
+      "nameEn": "Mickey Mouse",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 95,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 2,
+      "name": "미니마우스",
+      "nameEn": "Minnie Mouse",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 90,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 3,
+      "name": "도날드 덕",
+      "nameEn": "Donald Duck",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 88,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 4,
+      "name": "구피",
+      "nameEn": "Goofy",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 5,
+      "name": "뽀로로",
+      "nameEn": "Pororo",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 92,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 6,
+      "name": "루피",
+      "nameEn": "Loopy",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 88,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 7,
+      "name": "에디",
+      "nameEn": "Eddy",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 8,
+      "name": "포비",
+      "nameEn": "Poby",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 87,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 9,
+      "name": "크롱",
+      "nameEn": "Crong",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 89,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 10,
+      "name": "해리",
+      "nameEn": "Harry",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 86,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 356,
+      "name": "티니핑 하츄핑",
+      "nameEn": "Tiny Ping Hachuping",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 75,
+      "tags": ["한국", "유아", "티니핑"]
+    },
+    {
+      "id": 357,
+      "name": "티니핑 라라핑",
+      "nameEn": "Tiny Ping Laraping",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 73,
+      "tags": ["한국", "유아", "티니핑"]
+    },
+    {
+      "id": 358,
+      "name": "티니핑 바로핑",
+      "nameEn": "Tiny Ping Baroping",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 71,
+      "tags": ["한국", "유아", "티니핑"]
+    },
+    {
+      "id": 359,
+      "name": "티니핑 차차핑",
+      "nameEn": "Tiny Ping Chachaping",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 69,
+      "tags": ["한국", "유아", "티니핑"]
+    },
+    {
+      "id": 360,
+      "name": "파워레인저",
+      "nameEn": "Power Rangers",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "액션",
+      "difficulty": "medium",
+      "popularity": 80,
+      "tags": ["미국", "액션", "히어로"]
+    },
+    {
+      "id": 371,
+      "name": "호빵맨",
+      "nameEn": "Anpanman",
+      "origin": "일본",
+      "ageGroup": "child",
+      "category": "일본애니",
+      "difficulty": "easy",
+      "popularity": 88,
+      "tags": ["일본", "유아", "호빵"]
+    },
+    {
+      "id": 372,
+      "name": "카레빵맨",
+      "nameEn": "Curry Bread Man",
+      "origin": "일본",
+      "ageGroup": "child",
+      "category": "일본애니",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["일본", "유아", "호빵"]
+    },
+    {
+      "id": 373,
+      "name": "식빵맨",
+      "nameEn": "Shokupan Man",
+      "origin": "일본",
+      "ageGroup": "child",
+      "category": "일본애니",
+      "difficulty": "easy",
+      "popularity": 82,
+      "tags": ["일본", "유아", "호빵"]
+    },
+    {
+      "id": 376,
+      "name": "포켓몬 팽도리",
+      "nameEn": "Pokemon Pangdori",
+      "origin": "일본",
+      "ageGroup": "child",
+      "category": "포켓몬",
+      "difficulty": "easy",
+      "popularity": 90,
+      "tags": ["일본", "포켓몬", "유아"]
+    },
+    {
+      "id": 377,
+      "name": "포켓몬 꼬부기",
+      "nameEn": "Pokemon Squirtle",
+      "origin": "일본",
+      "ageGroup": "child",
+      "category": "포켓몬",
+      "difficulty": "easy",
+      "popularity": 92,
+      "tags": ["일본", "포켓몬", "유아"]
+    },
+    {
+      "id": 378,
+      "name": "포켓몬 파이리",
+      "nameEn": "Pokemon Charmander",
+      "origin": "일본",
+      "ageGroup": "child",
+      "category": "포켓몬",
+      "difficulty": "easy",
+      "popularity": 94,
+      "tags": ["일본", "포켓몬", "유아"]
+    },
+    {
+      "id": 384,
+      "name": "페파피그 페파",
+      "nameEn": "Peppa Pig",
+      "origin": "중국",
+      "ageGroup": "child",
+      "category": "중국애니",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["중국", "유아", "돼지"]
+    },
+    {
+      "id": 385,
+      "name": "페파피그 조지",
+      "nameEn": "Peppa Pig George",
+      "origin": "중국",
+      "ageGroup": "child",
+      "category": "중국애니",
+      "difficulty": "easy",
+      "popularity": 83,
+      "tags": ["중국", "유아", "돼지"]
+    },
+    {
+      "id": 401,
+      "name": "방가방가 햄토리",
+      "nameEn": "Bang Bang Hamtori",
+      "origin": "한국",
+      "ageGroup": "teen",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 78,
+      "tags": ["한국", "초등", "햄스터"]
+    },
+    {
+      "id": 411,
+      "name": "도라에몽 진구",
+      "nameEn": "Doraemon Nobita",
+      "origin": "일본",
+      "ageGroup": "teen",
+      "category": "일본애니",
+      "difficulty": "easy",
+      "popularity": 95,
+      "tags": ["일본", "초등", "도라에몽"]
+    },
+    {
+      "id": 412,
+      "name": "도라에몽 퉁퉁이",
+      "nameEn": "Doraemon Takeshi",
+      "origin": "일본",
+      "ageGroup": "teen",
+      "category": "일본애니",
+      "difficulty": "easy",
+      "popularity": 88,
+      "tags": ["일본", "초등", "도라에몽"]
+    },
+    {
+      "id": 415,
+      "name": "디지몬 아구몬",
+      "nameEn": "Digimon Agumon",
+      "origin": "일본",
+      "ageGroup": "teen",
+      "category": "일본애니",
+      "difficulty": "medium",
+      "popularity": 82,
+      "tags": ["일본", "초등", "디지몬"]
+    },
+    {
+      "id": 428,
+      "name": "벤 10 포 암즈",
+      "nameEn": "Ben 10 Four Arms",
+      "origin": "미국",
+      "ageGroup": "teen",
+      "category": "미국애니",
+      "difficulty": "medium",
+      "popularity": 85,
+      "tags": ["미국", "초등", "히어로"]
+    },
+    {
+      "id": 432,
+      "name": "파워퍼프걸 블로섬",
+      "nameEn": "Powerpuff Girls Blossom",
+      "origin": "미국",
+      "ageGroup": "teen",
+      "category": "미국애니",
+      "difficulty": "medium",
+      "popularity": 87,
+      "tags": ["미국", "초등", "히어로"]
+    },
+    {
+      "id": 447,
+      "name": "메이플스토리 은월",
+      "nameEn": "MapleStory Eunwol",
+      "origin": "한국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 75,
+      "tags": ["한국", "게임", "메이플스토리"]
+    },
+    {
+      "id": 448,
+      "name": "메이플스토리 제논",
+      "nameEn": "MapleStory Xenon",
+      "origin": "한국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 73,
+      "tags": ["한국", "게임", "메이플스토리"]
+    },
+    {
+      "id": 460,
+      "name": "킹덤하츠 소라",
+      "nameEn": "Kingdom Hearts Sora",
+      "origin": "일본",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 88,
+      "tags": ["일본", "게임", "킹덤하츠"]
+    },
+    {
+      "id": 465,
+      "name": "포켓몬 그라돈",
+      "nameEn": "Pokemon Groudon",
+      "origin": "일본",
+      "ageGroup": "adult",
+      "category": "포켓몬",
+      "difficulty": "hard",
+      "popularity": 85,
+      "tags": ["일본", "포켓몬", "레전더리"]
+    },
+    {
+      "id": 470,
+      "name": "블리치 이치고",
+      "nameEn": "Bleach Ichigo",
+      "origin": "일본",
+      "ageGroup": "adult",
+      "category": "일본애니",
+      "difficulty": "hard",
+      "popularity": 90,
+      "tags": ["일본", "애니메이션", "액션"]
+    },
+    {
+      "id": 495,
+      "name": "원신 다이루크",
+      "nameEn": "Genshin Impact Diluc",
+      "origin": "중국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 92,
+      "tags": ["중국", "게임", "원신"]
+    },
+    {
+      "id": 506,
+      "name": "사우스파크 카트맨",
+      "nameEn": "South Park Cartman",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "미국애니",
+      "difficulty": "hard",
+      "popularity": 88,
+      "tags": ["미국", "애니메이션", "코미디"]
+    },
+    {
+      "id": 531,
+      "name": "리그오브레전드 페이커",
+      "nameEn": "League of Legends Faker",
+      "origin": "한국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 95,
+      "tags": ["한국", "게임", "리그오브레전드"]
+    },
+    {
+      "id": 532,
+      "name": "리그오브레전드 아리",
+      "nameEn": "League of Legends Ahri",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 90,
+      "tags": ["미국", "게임", "리그오브레전드"]
+    },
+    {
+      "id": 540,
+      "name": "오버워치 D.Va",
+      "nameEn": "Overwatch D.Va",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 87,
+      "tags": ["미국", "게임", "오버워치"]
+    },
+    {
+      "id": 551,
+      "name": "페이트 세이버",
+      "nameEn": "Fate Saber",
+      "origin": "일본",
+      "ageGroup": "adult",
+      "category": "일본애니",
+      "difficulty": "hard",
+      "popularity": 93,
+      "tags": ["일본", "애니메이션", "판타지"]
+    },
+    {
+      "id": 556,
+      "name": "에반게리온 신지",
+      "nameEn": "Evangelion Shinji",
+      "origin": "일본",
+      "ageGroup": "adult",
+      "category": "일본애니",
+      "difficulty": "hard",
+      "popularity": 89,
+      "tags": ["일본", "애니메이션", "SF"]
+    },
+    {
+      "id": 582,
+      "name": "원신 야란",
+      "nameEn": "Genshin Impact Yelan",
+      "origin": "중국",
+      "ageGroup": "adult",
+      "category": "게임",
+      "difficulty": "hard",
+      "popularity": 88,
+      "tags": ["중국", "게임", "원신"]
+    },
+    {
+      "id": 601,
+      "name": "그래비티 폴즈 빌",
+      "nameEn": "Gravity Falls Bill",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "미국애니",
+      "difficulty": "hard",
+      "popularity": 85,
+      "tags": ["미국", "애니메이션", "미스터리"]
+    },
+    {
+      "id": 615,
+      "name": "배트맨 로빈",
+      "nameEn": "Batman Robin",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "DC",
+      "difficulty": "hard",
+      "popularity": 87,
+      "tags": ["미국", "DC", "히어로"]
+    },
+    {
+      "id": 636,
+      "name": "엑스맨 프로페서 X",
+      "nameEn": "X-Men Professor X",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "마블",
+      "difficulty": "hard",
+      "popularity": 84,
+      "tags": ["미국", "마블", "히어로"]
+    },
+    {
+      "id": 647,
+      "name": "가디언즈 드랙스",
+      "nameEn": "Guardians Drax",
+      "origin": "미국",
+      "ageGroup": "adult",
+      "category": "마블",
+      "difficulty": "hard",
+      "popularity": 82,
+      "tags": ["미국", "마블", "히어로"]
+    }
+  ],
+  "metadata": {
+    "totalCount": 655,
+    "lastUpdated": "2025-01-16",
+    "ageGroups": {
+      "child": {
+        "range": "0-7세",
+        "count": 200,
+        "description": "유아/어린이 대상 캐릭터"
+      },
+      "teen": {
+        "range": "8-15세", 
+        "count": 300,
+        "description": "초등~중학생 대상 캐릭터"
+      },
+      "adult": {
+        "range": "15세 이상",
+        "count": 155,
+        "description": "청소년~성인 대상 캐릭터"
+      }
+    },
+    "origins": {
+      "한국": 150,
+      "일본": 200,
+      "중국": 100,
+      "미국": 205
+    },
+    "categories": {
+      "디즈니": 50,
+      "한국애니": 80,
+      "포켓몬": 60,
+      "마블": 40,
+      "DC": 30,
+      "게임": 120,
+      "일본애니": 100,
+      "미국애니": 80,
+      "중국애니": 50,
+      "기타": 45
+    }
+  }
+}

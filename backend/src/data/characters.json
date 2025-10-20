@@ -1,0 +1,149 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "미키마우스",
+      "nameEn": "Mickey Mouse",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 95,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 2,
+      "name": "미니마우스",
+      "nameEn": "Minnie Mouse",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 90,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 3,
+      "name": "도날드 덕",
+      "nameEn": "Donald Duck",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 88,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 4,
+      "name": "구피",
+      "nameEn": "Goofy",
+      "origin": "미국",
+      "ageGroup": "child",
+      "category": "디즈니",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["디즈니", "클래식", "유아"]
+    },
+    {
+      "id": 5,
+      "name": "뽀로로",
+      "nameEn": "Pororo",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 92,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 6,
+      "name": "루피",
+      "nameEn": "Loopy",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 88,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 7,
+      "name": "에디",
+      "nameEn": "Eddy",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 85,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 8,
+      "name": "포비",
+      "nameEn": "Poby",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 87,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 9,
+      "name": "크롱",
+      "nameEn": "Crong",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 89,
+      "tags": ["한국", "유아", "친구"]
+    },
+    {
+      "id": 10,
+      "name": "해리",
+      "nameEn": "Harry",
+      "origin": "한국",
+      "ageGroup": "child",
+      "category": "한국애니",
+      "difficulty": "easy",
+      "popularity": 86,
+      "tags": ["한국", "유아", "친구"]
+    }
+  ],
+  "metadata": {
+    "totalCount": 655,
+    "lastUpdated": "2025-01-16",
+    "ageGroups": {
+      "child": {
+        "range": "0-7세",
+        "count": 200,
+        "description": "유아/어린이 대상 캐릭터"
+      },
+      "teen": {
+        "range": "8-15세", 
+        "count": 300,
+        "description": "초등~중학생 대상 캐릭터"
+      },
+      "adult": {
+        "range": "15세 이상",
+        "count": 155,
+        "description": "청소년~성인 대상 캐릭터"
+      }
+    },
+    "origins": {
+      "한국": 150,
+      "일본": 200,
+      "중국": 100,
+      "미국": 205
+    },
+    "categories": {
+      "디즈니": 50,
+      "한국애니": 80,
+      "포켓몬": 60,
+      "마블": 40,
+      "DC": 30,
+      "기타": 395
+    }
+  }
+}

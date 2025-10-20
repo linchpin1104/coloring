@@ -1,0 +1,33 @@
+# Robots.txt for ColoringHub
+# Generated on 2025-10-20 13:20:20
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://coloringhub.com/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
+
+# Disallow admin and private paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_private/
+
+# Allow specific bots to crawl faster
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 0
+
+# Image indexing
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /coloring-pages/
+
+# Mobile crawlers
+User-agent: Googlebot-Mobile
+Allow: /
