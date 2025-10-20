@@ -3,7 +3,7 @@ import cors from 'cors';
 import * as path from 'path';
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env['PORT'] || 3001;
 
 // CORS 설정
 app.use(cors());
