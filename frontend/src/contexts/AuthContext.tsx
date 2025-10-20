@@ -59,6 +59,11 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // 사용자 프로필 가져오기
   const fetchUserProfile = useCallback(async (uid: string) => {
+    if (!db) {
+      logger.warn('Firebase not configured, skipping profile fetch');
+      return;
+    }
+    
     try {
       const userDoc = await getDoc(doc(db, 'users', uid));
       if (userDoc.exists()) {
@@ -89,6 +94,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // 이메일/비밀번호 로그인
   const signIn = async (email: string, password: string) => {
+    if (!auth) {
+      throw new Error('Firebase not configured');
+    }
     try {
       await signInWithEmailAndPassword(auth, email, password);
     } catch (error) {
@@ -99,6 +107,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // 이메일/비밀번호 회원가입
   const signUp = async (email: string, password: string, displayName: string, age: number) => {
+    if (!auth || !db) {
+      throw new Error('Firebase not configured');
+    }
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const { user } = userCredential;
@@ -132,6 +143,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // Google 로그인
   const signInWithGoogle = async () => {
+    if (!auth || !db) {
+      throw new Error('Firebase not configured');
+    }
     try {
       const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(auth, provider);
@@ -163,6 +177,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // 로그아웃
   const logout = async () => {
+    if (!auth) {
+      throw new Error('Firebase not configured');
+    }
     try {
       await signOut(auth);
       setUserProfile(null);
@@ -174,7 +191,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // 사용자 프로필 업데이트
   const updateUserProfile = async (updates: Partial<UserProfile>) => {
-    if (!user) {return;}
+    if (!user || !db) {
+      return;
+    }
 
     try {
       const updatedProfile = {
@@ -193,6 +212,12 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // 인증 상태 변경 감지
   useEffect(() => {
+    if (!auth) {
+      // Firebase가 설정되지 않은 경우
+      setLoading(false);
+      return;
+    }
+
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       setUser(user);
       if (user) {
