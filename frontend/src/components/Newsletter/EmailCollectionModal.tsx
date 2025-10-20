@@ -4,12 +4,14 @@ interface EmailCollectionModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSubmit?: (email: string) => void;
+  onEmailCollected?: (email: string) => void;
 }
 
 export const EmailCollectionModal: React.FC<EmailCollectionModalProps> = ({
   isOpen,
   onClose,
   onSubmit,
+  onEmailCollected,
 }) => {
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -60,6 +62,9 @@ export const EmailCollectionModal: React.FC<EmailCollectionModalProps> = ({
       setSuccess(true);
       if (onSubmit) {
         onSubmit(email);
+      }
+      if (onEmailCollected) {
+        onEmailCollected(email);
       }
 
       setTimeout(() => {

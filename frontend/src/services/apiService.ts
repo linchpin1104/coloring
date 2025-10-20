@@ -45,10 +45,12 @@ class ApiService {
     // 요청 인터셉터 - 인증 토큰 추가
     this.api.interceptors.request.use(
       async (config) => {
-        const user = auth.currentUser;
-        if (user) {
-          const token = await user.getIdToken();
-          config.headers.Authorization = `Bearer ${token}`;
+        if (auth) {
+          const user = auth.currentUser;
+          if (user) {
+            const token = await user.getIdToken();
+            config.headers.Authorization = `Bearer ${token}`;
+          }
         }
         return config;
       },
@@ -63,7 +65,9 @@ class ApiService {
       (error) => {
         if (error.response?.status === 401) {
           // 인증 에러 시 로그아웃 처리
-          auth.signOut();
+          if (auth) {
+            auth.signOut();
+          }
         }
         return Promise.reject(error);
       },
